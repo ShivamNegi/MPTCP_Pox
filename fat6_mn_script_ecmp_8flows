@@ -1,0 +1,54 @@
+0_1_3 iperf -s &
+4_1_3 iperf -c 0_1_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+4_1_2 iperf -s &
+4_1_4 iperf -c 4_1_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+1_2_3 iperf -s &
+1_1_3 iperf -c 1_2_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+0_2_4 iperf -s &
+4_0_4 iperf -c 0_2_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_0_3 iperf -s &
+2_2_4 iperf -c 5_0_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+3_2_2 iperf -s &
+5_0_4 iperf -c 3_2_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+2_1_3 iperf -s &
+0_1_2 iperf -c 2_1_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+0_1_4 iperf -s &
+3_1_2 iperf -c 0_1_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+0_0_4 iperf -s &
+1_0_4 iperf -c 0_0_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_2_2 iperf -s &
+3_1_3 iperf -c 5_2_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+0_0_3 iperf -s &
+2_0_2 iperf -c 0_0_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+2_2_2 iperf -s &
+1_1_2 iperf -c 2_2_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_1_4 iperf -s &
+3_2_4 iperf -c 5_1_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+1_0_3 iperf -s &
+1_2_2 iperf -c 1_0_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+0_2_2 iperf -s &
+3_1_4 iperf -c 0_2_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+2_1_2 iperf -s &
+2_0_4 iperf -c 2_1_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_0_2 iperf -s &
+2_0_3 iperf -c 5_0_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+4_2_2 iperf -s &
+5_1_3 iperf -c 4_2_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_2_3 iperf -s &
+3_0_3 iperf -c 5_2_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+5_1_2 iperf -s &
+5_2_4 iperf -c 5_1_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+4_2_3 iperf -s &
+1_1_4 iperf -c 4_2_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+3_0_4 iperf -s &
+1_0_2 iperf -c 3_0_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+2_1_4 iperf -s &
+0_0_2 iperf -c 2_1_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+3_0_2 iperf -s &
+4_0_2 iperf -c 3_0_2 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+1_2_4 iperf -s &
+0_2_3 iperf -c 1_2_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+4_2_4 iperf -s &
+2_2_3 iperf -c 4_2_4 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt &
+3_2_3 iperf -s &
+4_0_3 iperf -c 3_2_3 -P 8 -t 15 -b 10M >> outputs/fat/ecmp_fat_6pods_8flows.txt
