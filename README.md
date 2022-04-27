@@ -23,7 +23,7 @@
 
 4. In the Mininet CLI run `source [MN_SCRIPT_FILE]`.
 
-	`source jelly_mn_script_ecmp_1flows`
+  `source jelly_mn_script_ecmp_1flows`
   `source jelly_mn_script_ecmp_2flows`
   .
   .
@@ -37,7 +37,7 @@
 
 	Example `python pox/pox.py DCController --topo=ft,4 --routing=ECMP`
 
-2. Open another terminal and run `python generate_cmds_fat.py [N_PODS] [N_FLOWS] [ROUTE_PROTO] > [MN_SCRIPT_FILE]`
+2. Open another terminal and run `./fat_flows.sh`
 
 	Example `python generate_cmds_fat.py 4 8 ecmp > fat_mn_script_ecmp_8flows`
 
@@ -45,8 +45,12 @@
 
 	Example `mn --custom ripl/ripl/mn.py --topo ft,4 --controller=remote --mac --link tc,bw=10,delay=10ms`
 
-4. In the Mininet CLI run `source [MN_SCRIPT_FILE]`
+4. In the Mininet CLI run `source [MN_SCRIPT_FILE]`.
 
-	Example `source fat_mn_script_ecmp_8flows`
+  `source fat_mn_script_ecmp_1flows`
+  `source fat_mn_script_ecmp_2flows`
+  .
+  .
+  `source fat_mn_script_ecmp_8flows`
 
 5. The result will be in the outputs/fat directory.
